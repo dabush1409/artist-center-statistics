@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html ng-app="miniProj">
+<head>
+    <base href="/">
+
+    <!-- VDM-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords"
+          content="info,actualité,actu,news,actu foot,infos,événements,nouvelles,actualité france,app actualités,A la Une,actu france,info foot,information,app news,actualité monde,actualité gratuite,info en direct,actualité internationale,média,actu people,actu vidéo,actu monde,news vidéo,actualité vidéo,info vidéo,dernières informations,toute l'actualité,app infos,dernières infos,actu sport,app actu,informations actualité,actu en direct,appli actu,info en continu,Reportages vidéos,actualité en vidéo,toute l'info,actu gratuite,appli actus,appli infos,infos en vidéo,appli infos vidéo,app actu vidéo,news en vidéo,informations actualités gratuites,app news vidéo,infos gratuites,appli actu vidéo,tweets d'info,tweets d'actu,actu techno,infos essentielles">
+
+    <title>miniProj</title>
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/angular-material.css">
+    <link rel="stylesheet" href="bower_components/bootstrap.css">
+    <!-- endinject -->
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="style/global.css">
+    <!-- endinject -->
+
+    <!-- vendors:css -->
+    <!-- endinject -->
+
+    <!-- important:js -->
+    <!-- endinject -->
+
+</head>
+
+<body>
+
+
+<div ng-include="'views/main-content-view.html'" class="container" id="content-wrapper" ng-cloak>
+
+</div>
+
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAG4chrqAwBltqDl_V_YKx-PYHWpdx76AM" type="text/javascript"></script>
+
+
+<!-- bower:js -->
+<script src="bower_components/jquery.js"></script>
+<script src="bower_components/bootstrap.js"></script>
+<script src="bower_components/angular.js"></script>
+<script src="bower_components/Chart.min.js"></script>
+<script src="bower_components/angular-chart.min.js"></script>
+<script src="bower_components/angular-animate.js"></script>
+<script src="bower_components/angular-aria.js"></script>
+<script src="bower_components/angular-cookies.js"></script>
+<script src="bower_components/angular-material.js"></script>
+<script src="bower_components/angular-messages.js"></script>
+<script src="bower_components/angular-route.js"></script>
+<script src="bower_components/ui-bootstrap-tpls.js"></script>
+<!-- endinject -->
+
+<!-- inject:js -->
+<script src="javascript/app.js"></script>
+<script src="javascript/services/MapsService.js"></script>
+<script src="javascript/services/ApiService.js"></script>
+<script src="javascript/routes/routesConfig.js"></script>
+<script src="javascript/navbar/NavBarController.js"></script>
+<script src="javascript/controllers/TeachingController.js"></script>
+<script src="javascript/controllers/StudyController.js"></script>
+<script src="javascript/controllers/MapsController.js"></script>
+<script src="javascript/controllers/MainController.js"></script>
+<script src="javascript/controllers/GraphsController.js"></script>
+<script src="javascript/controllers/ExhibitionsController.js"></script>
+<script src="javascript/controllers/BirthController.js"></script>
+<script src="javascript/constants/Constants.js"></script>
+<!-- endinject -->
+
+<!-- vendors:js -->
+<!-- endinject -->
+
+</body>
+</html>

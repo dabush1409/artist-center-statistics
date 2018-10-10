@@ -1,0 +1,14 @@
+<md-content class="md-padding" ng-controller="NavBarController as navBarCtrl">
+    <md-nav-bar
+            md-no-ink-bar="disableInkBar"
+            md-selected-nav-item="navBarCtrl.currentNavItem"
+            nav-bar-aria-label="navigation links">
+        <md-nav-item ng-repeat="tab in navBarCtrl.tabs" md-nav-click="navBarCtrl.goto(tab.url)" name="tab{{$index}}">
+            {{tab.title}}
+        </md-nav-item>
+    </md-nav-bar>
+    <md-content flex layout-padding ng-view ng-cloak>
+    </md-content>
+
+
+</md-content>

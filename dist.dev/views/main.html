@@ -1,0 +1,17 @@
+<div class="main-stats">
+    <div class="">
+        פילוג אומנים לפי פריפריה/לא פריפריה מתוך {{ mainCtrl.data[0]+mainCtrl.data[1]+mainCtrl.data[2]}} אמנים
+    </div>
+    <canvas id="doughnut" class="chart chart-doughnut chart-xs" options="mainCtrl.graphOptions"
+            chart-data="mainCtrl.data" chart-labels="mainCtrl.labels">
+    </canvas>
+</div>
+
+<div class="main-stats">
+    <div class="">
+        מספר תערוכות בפריפריה מול לא בפריפריה
+    </div>
+    <canvas id="doughnut2" class="chart chart-doughnut chart-xs" options="mainCtrl.graphOptions"
+            chart-data="mainCtrl.data3" chart-labels="mainCtrl.labels3">
+    </canvas>
+</div>
